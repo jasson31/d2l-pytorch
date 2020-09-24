@@ -76,7 +76,7 @@ def show_trace_2d(f, res):
 
 def use_svg_display():
     """Use svg format to display plot in jupyter."""
-    display.set_matplotlib_formats('svg')
+    display.set_matplotlib_formats('png')
 
 def plot(X, Y=None, xlabel=None, ylabel=None, legend=[], xlim=None,
          ylim=None, xscale='linear', yscale='linear', fmts=None,
